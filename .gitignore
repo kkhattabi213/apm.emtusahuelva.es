@@ -1,0 +1,37 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias si las hubiera
+node_modules/
+vendor/
+
+# Archivos de configuración local
+*.log
+```
+
+Ahora, los comandos para inicializar el repositorio y subirlo a GitHub:
+
+````powershell
+# Inicializar el repositorio git
+git init
+
+# Añadir todos los archivos
+git add .
+
+# Hacer el primer commit
+git commit -m "Initial commit: Emtusa WebApp PWA"
+
+# Crear un nuevo repositorio en GitHub (deberás hacerlo manualmente en github.com)
+# Luego, conectar tu repositorio local con el remoto (reemplaza USER y REPO con tus valores)
+git remote add origin https://github.com/USER/REPO.git
+
+# Subir el código a la rama principal
+git branch -M main
+git push -u origin main

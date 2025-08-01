@@ -1,0 +1,41 @@
+{
+    "name": "Emtusa WebApp",
+    "short_name": "APPEmtusa",
+    "icons": [
+        {
+            "src": "logoEmtusaAzul16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "density": 1.0
+        },
+        {
+            "src": "logoEmtusaAzul152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "density": 1.0
+        },
+        {
+            "src": "logoEmtusaAzul196.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "density": 1.0
+        }
+    ],
+    "permissions": ["http://www.emtusahuelva.es/","http://www.emtusahuelva.com/"],
+    "description": "Aplicacion de autobuses de Huelva",
+    "start_url": "index.html",
+    "display": "standalone",
+    "orientation": "landscape",
+    "background_color": "#169FF1",
+    "theme_color": "#169FF1",
+    "dir": "ltr",
+    "related_applications": [
+    {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=net.tecnosis.EmtusaHuelva",
+        "id": "net.tecnosis.EmtusaHuelva"
+    }, {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/es/app/appemtusa-mapa-lineas-y-paradas/id1134003175?mt=8"
+    }]
+}
