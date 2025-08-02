@@ -4769,8 +4769,8 @@ function imgConverter(url) {
             trueUrl = 'https://www.emtusahuelva.com/' + url
         }
     } else {
-        if (url.indexOf('http://www.emtusahuelva') != 1) {
-            trueUrl = url.replace('http', 'https')
+        if (url.indexOf('http://www.emtusahuelva') == 0) {
+            trueUrl = url.replace('http://', 'https://')
         } else {
             trueUrl = url
         }
